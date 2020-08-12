@@ -72,7 +72,8 @@ header .container .h1 {
 }
 .interface a {
   font-size: 0.9rem;
-  line-height: 20px;
+  line-height: 20px
+  width: 100%;
 }
 .interface .before {
   background-color: hsla(0, 0%, 100%, 0.2);
@@ -167,6 +168,10 @@ plane-animation {
   .heading {
     font-size: 1rem;
   }
+ header .row .image {
+  width: 100%;
+  max-height: 50vh; 
+}
   .unlock-col p {
     font-size: 0.9rem;
   }
