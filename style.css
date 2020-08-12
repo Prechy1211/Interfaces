@@ -168,10 +168,7 @@ plane-animation {
   .heading {
     font-size: 1rem;
   }
- header .row .image {
-  width: 100%;
-  max-height: 50vh; 
-}
+ 
   .unlock-col p {
     font-size: 0.9rem;
   }
@@ -186,9 +183,18 @@ plane-animation {
   }
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 567px) {
   .unlock-img {
     max-width: 40%;
+}
+.interface a {
+  font-size: 0.7rem;
+  line-height: 20px
+  width: 100%;
+}
+header .row .image {
+  width: 100%;
+  max-height: 45vh; 
 }
 }
 
